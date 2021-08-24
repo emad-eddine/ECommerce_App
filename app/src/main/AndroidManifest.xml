@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kichou.imad.e_commerceapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ECommerceApp">
+        <activity android:name=".ClientOrdersList"></activity>
+        <activity android:name=".SellerOrdersActivity" />
+        <activity android:name=".ClientWishList" />
+        <activity android:name=".ClientValidateOrder" />
+        <activity android:name=".ClientPaiementThree" />
+        <activity android:name=".ClientPaiementTwo" />
+        <activity android:name=".ClientPaiementOne" />
+        <activity android:name=".AddProductReview" />
+        <activity android:name=".BuyAProductActivity" />
+        <activity android:name=".ClientGatDetails" />
+        <activity android:name=".EditClientProfile" />
+        <activity android:name=".EditSellerProduct" />
+        <activity android:name=".SellerProductList" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".ClientMainActivity"
+                  android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".EditSellerProfile" />
+        <activity android:name=".SellerAddProductSummary" />
+        <activity android:name=".SellerAddProductDetails" />
+        <activity android:name=".SellerAddProductPhoto" />
+        <activity android:name=".SellerAddProductActivity" />
+        <activity android:name=".SellerMainActivity" />
+        <activity android:name=".SellerSignupActivity" />
+        <activity android:name=".ClientSignupActivity" />
+        <activity android:name=".SellerLoginActivity" />
+        <activity android:name=".ClientLoginActivity" />
+        <activity android:name=".AppSplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
+
+

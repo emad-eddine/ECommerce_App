@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_my_nav"
+    app:startDestination="@id/sellerMainFragment">
+
+    <fragment
+        android:id="@+id/sellerMainFragment"
+        android:name="com.kichou.imad.e_commerceapp.SellerMainFragment"
+        android:label="fragment_seller_main"
+        tools:layout="@layout/fragment_seller_main" >
+        <action
+            android:id="@+id/action_sellerMainFragment_to_sellerProfileFragment"
+            app:destination="@id/sellerProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sellerProfileFragment"
+        android:name="com.kichou.imad.e_commerceapp.SellerProfileFragment"
+        android:label="fragment_seller_profile"
+        tools:layout="@layout/fragment_seller_profile" >
+        <action
+            android:id="@+id/action_sellerProfileFragment_to_sellerMainFragment"
+            app:destination="@id/sellerMainFragment" />
+    </fragment>
+</navigation>

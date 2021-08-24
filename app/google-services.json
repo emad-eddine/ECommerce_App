@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "316682436151",
+    "project_id": "ecommerceapp-8434f",
+    "storage_bucket": "ecommerceapp-8434f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316682436151:android:de2a949ef76f9ce35489b2",
+        "android_client_info": {
+          "package_name": "com.kichou.imad.e_commerceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316682436151-djq2er7osfkjmps2hf3rcjv50oqfidnd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kichou.imad.e_commerceapp",
+            "certificate_hash": "f36c64e73f8f26e954db6dbc5f19c379f83df844"
+          }
+        },
+        {
+          "client_id": "316682436151-4jl8pi00tue435e1d8m701cojfvk4ll8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYErtZbdxq1_OPDwCMhQdcsJuf2uBVUgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316682436151-4jl8pi00tue435e1d8m701cojfvk4ll8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

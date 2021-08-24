@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">E-Commerce App</string>
+    <string name="noAccountText">Pas de compte ?</string>
+    <string name="create_acoount_text"><u>Créer un compte</u></string>
+    <string name="is_it_seller_text">Tu es un Vendeur ?</string>
+    <string name="create_seller_text"><u>Cliquez ici</u></string>
+    <string name="welcome_text">Bienvenue !</string>
+    <string name="nice_to_see_you_text">Ravi de vous revoir !</string>
+    <string name="connexion_btn_text">Connexion</string>
+    <string name="log_in_hint_messgae">someone@gmail.com</string>
+    <string name="mot_de_passe">Mot De Passe</string>
+    <string name="se_rappeler_de_moi">Se rappeler de moi</string>
+    <string name="todo">TODO</string>
+    <string name="tu_es_un_client">Tu es un Client ?</string>
+    <string name="s_inscrire">inscrire</string>
+    <string name="vous_avez_un_comte">Vous avez un comte ?</string>
+    <string name="votre_prenom">Votre Prenom</string>
+    <string name="votre_nom">Votre Nom</string>
+    <string name="_0xxxxxxxxx">0XXXXXXXXX</string>
+    <string name="bienvenue">Bienvenue,</string>
+    <string name="vendeur">Vendeur!</string>
+    <string name="choisir_un_categorie">Choisir un Categorie</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="devices">Devices</string>
+    <string name="dispositifs">Dispositifs</string>
+    <string name="gadgets">Gadgets</string>
+    <string name="jeux">Jeux</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="nom_du_article">Nom Du Article</string>
+    <string name="ajouter_des_photos_du_article">ajouter des photos du article</string>
+    <string name="importer_les_images">Importer les images</string>
+    <string name="prix_unitaire">Prix Unitaire</string>
+    <string name="addresse">Addresse</string>
+    <string name="pr_cedent">Précedent</string>
+    <string name="suivant">Suivant</string>
+    <string name="sommaire">Sommaire</string>
+    <string name="valider">Valider</string>
+    <string name="_100">100</string>
+    <string name="qte_disponible">Qte Disponible</string>
+    <string name="_2000dzd">2000dzd</string>
+    <string name="nom_du_produit">Nom du Produit</string>
+    <string name="homme_sommaire">Homme/sommaire</string>
+    <string name="editer_le_profile">Editer le profile</string>
+    <string name="modifier">Modifier</string>
+    <string name="categories">Categories</string>
+    <string name="nouveau_arriver">Nouveau Arriver</string>
+    <string name="plus_vendu">plus vendu</string>
+
+    <!-- product type -->
+
+    <string-array name="homme_type">
+        <item>Pantalons</item>
+        <item>T-shirt</item>
+        <item>Chemises</item>
+        <item>Vestes</item>
+        <item>Chaussures</item>
+    </string-array>
+
+    <string-array name="femme_type">
+        <item>Robes</item>
+        <item>Ensemble</item>
+        <item>Chaussures</item>
+        <item>T-shirt</item>
+    </string-array>
+
+    <string-array name="other_type">
+        <item>none</item>
+    </string-array>
+
+    <string-array name="category_vende">
+        <item>Homme</item>
+        <item>Femme</item>
+        <item>Dispositifs</item>
+        <item>Gadgets</item>
+        <item>Jeux</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vos_articles">Vos Articles</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="voir_les_d_tails"><u>Voir les détails</u></string>
+    <string name="d_tails">Détails</string>
+    <string name="u_avis_u"><![CDATA[<u>Avis</u>]]></string>
+
+</resources>
